@@ -1,0 +1,13 @@
+{
+  // Name this configuration
+  "name": "Config1",
+  // Use the base codespace image
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/powershell:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {}
+  },
+  "remoteUser": "codespace",
+  "overrideCommand": false,
+  "postCreateCommand": "pwsh -c Install-Module Az"
+}
