@@ -8,6 +8,5 @@
     "ghcr.io/devcontainers/features/azure-cli:1": {}
   },
   "remoteUser": "codespace",
-  "overrideCommand": false,
-  "postCreateCommand": "pwsh -c Install-Module Az"
+  "overrideCommand": false
 }
